@@ -75,7 +75,7 @@ public:
         while (root != NULL) {
             if (root->data == value) {
                 cout << "Value " << value << " found in the tree." << endl;
-                return;
+                break;
             }
             else if (value < root->data) {
                 root = root->left;
