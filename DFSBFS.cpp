@@ -38,10 +38,7 @@ public:
     int dequeue() {
         if (isEmpty()) return -1;
         int temp = arr[front];
-        if (front == rear)
-            front = rear = -1;
-        else
-            front++;
+        front++;
         return temp;
     }
 };
