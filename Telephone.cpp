@@ -65,7 +65,7 @@ public:
             }
         }
 
-        cout << "The value is not found." << endl;
+       
         cout << "The number of comparisons we got is: " << comparisons << endl;
     }
     
